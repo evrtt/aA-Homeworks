@@ -39,3 +39,18 @@
 
   #Last Notbut Lease: Map Class
 
+dont_get_lost = Map.new
+
+dont_get_lost.set("compass", "344.4")
+dont_get_lost.set("roads", "none")
+
+p dont_get_lost.show
+
+p dont_get_lost.delete("compass")
+
+p dont_get_lost.show
+
+p dont_get_lost.get("roads")
+
+
+

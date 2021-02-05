@@ -9,10 +9,10 @@ class Map
     @map.each do |el| 
       if el[0] == key
         found = true
-        el[1] == value 
+        el[1] = value 
       end
     end
-    @map += [key, value] unless found
+    @map << [key, value] unless found
   end
 
   def get(key)
